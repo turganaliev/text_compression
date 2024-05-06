@@ -6,11 +6,10 @@ file.close()
 
 # Identify all words in the text, assign a code to each
 l = content.split()
+print(l)
 d = {}
 i = 1
-for x in l:
-    if x not in d:
-        d[x] = i
+for word in l:
+    if word not in d:
+        d[word] = i
         i += 1
-
-print(d)
