@@ -59,4 +59,4 @@ word_codes = compress(input_file, compressed_file)
 decompress(compressed_file, decompressed_file, word_codes)
 
 result = compare_files(input_file, decompressed_file)
-print("Files are identical:", result)
+print("Files are identical: ", result)
